@@ -7,9 +7,9 @@ img {
 
 a {
   text-decoration: none;
-  -webkit-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out; }
+  -webkit-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out; }
   a:hover {
     opacity: 0.8; }
 
@@ -42,6 +42,10 @@ h1 span {
 
 .socialMedia li {
   margin-left: 16px; }
+  .socialMedia li:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
   .socialMedia li:nth-child(1) {
     margin-left: 0; }
 
