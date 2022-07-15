@@ -1,10 +1,51 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link rel="stylesheet" href="./assets/style/reset.css">
+  <link rel="stylesheet" href="./assets/style/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>w2｜個人網站</title>
+</head>
+
+<body>
+  <header class="d-flex jc-center ai-center t-white">
+    <ul>
+        <li class="mb-8">
+            <h1 class="lh-s">Here’s <br><span>JOANNE</span></h1>
+        </li>
+        <li class="mt-8 lh-s">
+            Founder of “XXXD Official’’ <br> & Graphic Designer
+        </li>
+        <li>
+            <ul class="socialMedia mt-10 d-flex">
+                <li><a href="#" title="連結至 Behance (另開新頁)" target="_blank">
+                    <img src="./assets/images/behance.svg" alt="Behance"></a>
+                </li>
+                <li><a href="#" title="連結至 Facebook (另開新頁)" target="_blank">
+                    <img src="./assets/images/facebook.svg" alt="Facebook"></a>
+                </li>
+                <li><a href="#" title="連結至 Instagram (另開新頁)" target="_blank">
+                    <img src="./assets/images/instagram.svg" alt="instagram"></a>
+                </li>
+                <li><a href="#" title="連結至 YouTube (另開新頁)" target="_blank">
+                    <img src="./assets/images/youtube.svg" alt="youtube"></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</header>
+
+  
 <main>
   <!-- About -->
   <section class="container mt-14">
@@ -90,3 +131,21 @@ current: index
       </ul>
   </section>
 </main>
+
+  <!-- footer -->
+  <footer class="bg-dark mt-36 py-24 t-white t-center">
+    <h2 class="title">Contact</h2>
+    <ul>
+        <li>Mail：
+            <a href="mailto:xxxd@hexschool.com" title="寄信至xxxd@hexschool.com">xxxd@hexschool.com</a>
+        </li>
+        <li>Phone Number：
+            <a href="tel:0910123456" title="撥打電話至0910123456">0910123456</a>
+        </li>
+    </ul>
+</footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
